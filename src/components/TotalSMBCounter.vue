@@ -5,7 +5,7 @@
     </h1>
     <div class="flex justify-center items-center">
       <img src="/src/assets/small-business-icon.png" alt="" class="w-32 pr-8" />
-      <div class="montserrat text-center text-6xl font-bold text-cargo-blue">
+      <div class="montserrat text-center text-3xl sm:text-6xl font-bold text-cargo-blue">
         {{ Math.floor(TotalSMBCounter).toLocaleString("en-US") }}
       </div>
     </div>
