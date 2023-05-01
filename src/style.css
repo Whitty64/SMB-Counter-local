@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.montserrat {
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
+.opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+#app {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
